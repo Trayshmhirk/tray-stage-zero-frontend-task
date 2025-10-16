@@ -4,8 +4,8 @@ A responsive, accessible profile card built with vanilla HTML, CSS, and JavaScri
 
 ## Links
 
-- **Live Demo:** [Add your live URL here]
-- **Repository:** [Add your GitHub repo here]
+- **Live Demo:** [https://github.com/Trayshmhirk/tray-stage-zero-frontend-task.git]
+- **Repository:** [https://trayshmhirk.github.io/tray-stage-zero-frontend-task/]
 
 ## Quick Start
 
