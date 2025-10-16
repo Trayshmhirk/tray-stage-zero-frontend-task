@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Frontend Wizards — Profile Card</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main>
+      <article data-testid="test-profile-card" aria-label="User profile card">
+        <figure>
+          <img
+            src="https://res.cloudinary.com/dnqgorjtl/image/upload/v1760601470/VBW_8208_jbo9u4.jpg"
+            alt="Profile picture of Micheal Osunbajo"
+            data-testid="test-user-avatar"
+          />
+          <figcaption>Frank Micheal</figcaption>
+        </figure>
+
+        <div class="profile-details">
+          <header>
+            <h2 data-testid="test-user-name">Micheal Osunbajo</h2>
+          </header>
+
+          <p data-testid="test-user-bio">
+            Frontend dev who loves turning ideas into clean, functional
+            experiences. I believe in progress over perfection and learning
+            something new every day. When I'm not coding, I'm probably reading
+            manhwa/mangas, watching anime or YouTube videos, or just listening
+            to music, enjoying good vibes.
+          </p>
+
+          <p class="time">
+            Current time:
+            <span data-testid="test-user-time" aria-hidden="true"></span>
+          </p>
+
+          <nav aria-label="User social links">
+            <ul data-testid="test-user-social-links">
+              <li>
+                <a
+                  data-testid="test-user-social-twitter"
+                  href="https://twitter.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >Twitter</a
+                >
+              </li>
+              <li>
+                <a
+                  data-testid="test-user-social-github"
+                  href="https://github.com/Trayshmhirk"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >GitHub</a
+                >
+              </li>
+              <li>
+                <a
+                  data-testid="test-user-social-linkedin"
+                  href="https://www.linkedin.com/in/micheal-osunbajo-84260b14b"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >LinkedIn</a
+                >
+              </li>
+            </ul>
+          </nav>
+
+          <section>
+            <h3>Hobbies</h3>
+            <ul data-testid="test-user-hobbies">
+              <li>Coding</li>
+              <li>Photography</li>
+              <li>Traveling</li>
+              <li>Eating</li>
+              <li>Watching Anime</li>
+              <li>Reading Manhwa/Manga/Manhua</li>
+            </ul>
+          </section>
+
+          <section>
+            <h3>Dislikes</h3>
+            <ul data-testid="test-user-dislikes">
+              <li>Going out</li>
+              <li>Large gatherings</li>
+            </ul>
+          </section>
+        </div>
+      </article>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
